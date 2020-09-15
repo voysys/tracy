@@ -2,7 +2,7 @@ CFLAGS +=
 CXXFLAGS := $(CFLAGS) -std=gnu++17 -fpic
 DEFINES += -DTRACY_ENABLE
 INCLUDES :=
-LIBS := -lpthread -ldl
+LIBS := -lpthread -ldl -ltbb
 PROJECT := libtracy
 IMAGE := $(PROJECT)-$(BUILD).so
 SHARED_LIBRARY := yes

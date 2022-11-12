@@ -43,6 +43,7 @@
 #include <cstring>
 #include <functional>
 #include <memory> // only to support hash of smart pointers
+#include <limits>
 #include <stdexcept>
 #include <string>
 #include <type_traits>

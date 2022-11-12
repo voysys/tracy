@@ -1,6 +1,7 @@
 #ifndef __TRACYSOURCETOKENIZER_HPP__
 #define __TRACYSOURCETOKENIZER_HPP__
 
+#include <limits>
 #include <stdint.h>
 #include <vector>
 

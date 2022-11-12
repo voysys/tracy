@@ -2,6 +2,8 @@
 #include "TracyCharUtil.hpp"
 #include "TracySourceTokenizer.hpp"
 
+#include <limits>
+
 namespace tracy
 {
 

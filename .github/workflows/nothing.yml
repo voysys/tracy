@@ -1,0 +1,14 @@
+name: Do Nothing
+
+permissions:
+  contents: read
+
+on:
+  workflow_dispatch:
+
+jobs:
+  no_op:
+    runs-on: ubuntu-latest
+    steps:
+      - name: No-op step
+        run: echo "This does nothing useful."
